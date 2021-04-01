@@ -23,6 +23,9 @@
 
 ## Changelogs
 
+- **[1.6.1]**
+  - Fix
+    - React-native-web
 - **[1.6.0-rc]**
   - Dependency
     - Remove ViewPagerAndroid, use ScrollView #1009
@@ -95,19 +98,33 @@
 
 ## Getting Started
 
-- [Installation](#installation)
-- [Basic Usage](#basic-usage)
-- [Properties](#properties)
-  - [Basic](#basic)
-  - [Custom basic style & content](#custom-basic-style--content)
-  - [Pagination](#pagination)
-  - [Autoplay](#autoplay)
-  - [Control buttons](#control-buttons)
-  - [Props of Children](#props-of-children)
-  - [Basic props of `<ScrollView />`](#basic-props-of-scrollview-)
-  - [Supported ScrollResponder](#supported-scrollresponder)
-- [Examples](#examples)
-- [Development](#development)
+- [react-native-swiper](#react-native-swiper)
+  - [Roadmap](#roadmap)
+  - [Changelogs](#changelogs)
+  - [Show Cases](#show-cases)
+    - [examples/components/Basic](#examplescomponentsbasic)
+    - [examples/components/Swiper](#examplescomponentsswiper)
+    - [examples/components/SwiperNumber](#examplescomponentsswipernumber)
+    - [examples/components/Phone](#examplescomponentsphone)
+    - [examples/components/LoadMinimal](#examplescomponentsloadminimal)
+  - [Getting Started](#getting-started)
+    - [Installation](#installation)
+    - [Basic Usage](#basic-usage)
+    - [Properties](#properties)
+      - [Basic](#basic)
+      - [Custom basic style & content](#custom-basic-style--content)
+      - [Pagination](#pagination)
+      - [Autoplay](#autoplay)
+      - [Control buttons](#control-buttons)
+      - [Props of Children](#props-of-children)
+      - [Basic props of `<ScrollView />`](#basic-props-of-scrollview-)
+      - [Supported ScrollResponder](#supported-scrollresponder)
+    - [Methods](#methods)
+      - [scrollBy(index, animated)](#scrollbyindex-animated)
+    - [Examples](#examples)
+    - [Development](#development)
+  - [Contribution](#contribution)
+  - [Questions](#questions)
 
 ### Installation
 
